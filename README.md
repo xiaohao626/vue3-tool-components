@@ -109,12 +109,12 @@ export default {
 </style>
 ```
 ### 参数说明
-参数|说明|类型|默认值|版本
----|----|---|-----|---
-list|主体列表|any[]|[]|
-pre-list|前置列表(在主体列表前展示)|any[]|[]|
-item-min-width|列表项最小宽度(px)|number|204|
-item-space|列表项之间间隔(px)|number|24|
+|参数|说明|类型|默认值|版本|
+|---|----|---|-----|---|
+|list|主体列表|any[]|[]||
+|pre-list|前置列表(在主体列表前展示)|any[]|[]||
+|item-min-width|列表项最小宽度(px)|number|204||
+|item-space|列表项之间间隔(px)|number|24||
 ## z-water-fall-list
 支持多列显示的瀑布流列表
 
@@ -189,11 +189,11 @@ export default {
 }
 ```
 ### 参数说明
-参数|说明|类型|默认值|版本
----|----|---|-----|---
-list|主体列表|object[]|[]|
-column-num|列数|number|4|
-column-space|列间距|number|24|
+|参数|说明|类型|默认值|版本|
+|---|----|---|-----|---|
+|list|主体列表|object[]|[]||
+|column-num|列数|number|4||
+|column-space|列间距|number|24||
 
 ## z-keep-proportion-container
 保持长宽比的容器
@@ -229,6 +229,6 @@ export default {
 }
 ```
 ### 参数说明
-参数|说明|类型|默认值|版本
----|----|---|-----|---
-aspect-ratio-percent|高宽比百分比(例如：150)|number|100|
+|参数|说明|类型|默认值|版本|
+|---|----|---|-----|---|
+|aspect-ratio-percent|高宽比百分比(例如：150)|number|100||
