@@ -7,7 +7,7 @@
         <div v-for="(column, columnIndex) in waterFall"
              :ref="'listItem' + columnIndex"
              :key="columnIndex"
-             :style="{ width: `calc((100% - ${columnSpacing * (waterFall.length - 1)}px) / ${waterFall.length})` }"
+             :style="{ width: `calc((100% - ${columnSpace * (waterFall.length - 1)}px) / ${waterFall.length})` }"
              class="c-wfl-column">
           <!-- 瀑布流单流列表 -->
           <div v-for="(item, index) in column"

@@ -1,6 +1,6 @@
 {
   "name": "vue3-tool-components",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main": "lib/qianfu.umd.min.js",
   "description": "基于vue3的常见工具/组件库",
@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/xiaohao626/vue3-tool-components"
   },
   "scripts": {
     "serve": "vue-cli-service serve",

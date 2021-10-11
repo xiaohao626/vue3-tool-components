@@ -1,7 +1,7 @@
 <template>
   <div class="p-edfl">
-    <FlexList :pre-list="preList"
-              :list="list">
+    <z-flex-list :pre-list="preList"
+                 :list="list">
       <!-- 前置列表 -->
       <template #preList="slotProps">
         <div class="p-edfl-preitem">{{slotProps.item.name}}</div>
@@ -10,12 +10,12 @@
       <template #default="slotProps">
         <div class="p-edfl-item">{{slotProps.item.name}}</div>
       </template>
-    </FlexList>
+    </z-flex-list>
   </div>
 </template>
 
 <script>
-import FlexList from '../../../packages/flex-list/src/index.vue';
+import ZFlexList from '../../../packages/flex-list/src/index.vue';
 
 export default {
   name: 'flex-list-demo',
@@ -56,7 +56,7 @@ export default {
     };
   },
   components: {
-    FlexList,
+    ZFlexList,
   },
 };
 </script>

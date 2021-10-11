@@ -4,9 +4,9 @@
     <h2>宽：200px 高宽百分比：200</h2>
 
     <div class="p-edkpcd-container">
-      <KeepProportionContainer :aspect-ratio-percent="200">
+      <z-Keep-proportion-container :aspect-ratio-percent="200">
         <div class="p-edkpcd-demo"></div>
-      </KeepProportionContainer>
+      </z-Keep-proportion-container>
     </div>
 
     <!-- bidirectional data binding（双向数据绑定） -->
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import KeepProportionContainer from '../../../packages/keep-proportion-container/src/index.vue';
+import ZKeepProportionContainer from '../../../packages/keep-proportion-container/src/index.vue';
 
 // language js
 import 'codemirror/mode/javascript/javascript.js';
@@ -27,7 +27,7 @@ import 'codemirror/theme/base16-dark.css';
 
 export default {
   name: 'keep-proportion-container-demo',
-  components: { KeepProportionContainer },
+  components: { ZKeepProportionContainer },
   data() {
     return {
       code: 'const a = 10',
