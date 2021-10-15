@@ -17,6 +17,11 @@ export const menus = [
         id: 2,
         title: '瀑布流列表',
         route: '/waterfalllist'
+      },
+      {
+        id: 3,
+        title: '虚拟列表',
+        route: '/virtuallist'
       }
     ]
   }
