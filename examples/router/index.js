@@ -3,6 +3,7 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 import FlexList from '../demo/FlexList/index.vue';
 import WaterFallList from '../demo/WaterFallList/index.vue';
 import KeepProportionContainer from '../demo/KeepProportionContainer/index.vue';
+import VirtualList from '../demo/VirtualList/index.vue';
 
 const routes = [
 	{
@@ -26,6 +27,12 @@ const routes = [
 		path: '/waterfalllist',
 		name: 'WaterFallList',
 		component: WaterFallList
+	},
+	// 虚拟列表
+	{
+		path: '/virtuallist',
+		name: 'VirtualList',
+		component: VirtualList
 	}
 ];
 

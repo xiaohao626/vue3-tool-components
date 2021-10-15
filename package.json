@@ -1,6 +1,6 @@
 {
   "name": "vue3-tool-components",
-  "version": "0.1.1",
+  "version": "0.1.6",
   "private": false,
   "main": "lib/qianfu.umd.min.js",
   "description": "基于vue3的常见工具/组件库",
@@ -10,7 +10,10 @@
     "components",
     "water-fall-list",
     "flex-list",
-    "keep-proportion-container"
+    "keep-proportion-container",
+    "virtual",
+    "scroll",
+    "list"
   ],
   "author": "xiaohao626",
   "license": "MIT",
@@ -18,17 +21,19 @@
     "type": "git",
     "url": "git+https://github.com/xiaohao626/vue3-tool-components"
   },
+  "bugs": {
+    "url": "https://github.com/xiaohao626/vue3-tool-components/issues"
+  },
+  "homepage": "https://xiaohao626.github.io/vue3-tool-components/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --name qianfu --dest lib packages/index.js"
   },
-  "dependencies": {
+  "peerDependencies": {
     "core-js": "^3.6.5",
-    "vue": "^3.0.0",
-    "vue-codemirror": "^4.0.6",
-    "vue-router": "^4.0.11"
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -38,6 +43,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
+    "faker": "^5.5.3",
     "sass": "^1.42.1",
     "sass-loader": "^8.0.2"
   },
